@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Wondu</title>
+  <title>Onedu</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/1862d2faff.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,50 +33,97 @@
     </div>
   </nav>
 
-  <div class="main">
-    <div class="container headLine">
-      <div class="logo">
-        Wondu
-      </div>
-      <div class="sub-headLine">
-        <h5 class="sub-headLine-top">
-          호기심 많은 이들을 위한 원두
-        </h5>
-        <div class="sub-headLine-bottom">
-          스페셜티, 싱글오리진, 블렌드와 같이 다양한 원두 중에서 자신의 취향에 맞는 원두를 찾아보세요.
+  <main>
+    <section class="first-sec">
+      <div class="container headLine">
+        <div class="logo">
+          Onedu
         </div>
-        <button type="button" class="btn btn-outline-dark">원두 보기</button>
+        <div class="sub-headLine">
+          <h4>호기심 많은 이들을 위한 원두</h4>
+          <div class="sub-headLine-bottom">
+            스페셜티, 싱글오리진, 블렌드와 같이 다양한 원두 중에서 
+            자신의 취향에 맞는 하나의 원두를 찾아보세요.
+          </div>
+          <button type="button" class="btn btn-outline-dark">원두 보기</button>
+        </div>
       </div>
-    </div>
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://images.unsplash.com/photo-1606791405792-1004f1718d0c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block" width="500" height="600">
-        </div>
-        <div class="carousel-item">
-          <img src="https://images.unsplash.com/photo-1516744335356-6bcbaa34087a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block" width="500" height="600">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="footer-container">
-      <div class="first-footer">
-        <div>
-          <div class="logo">
-            Wondu
+      <aside style="width: 500px;">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.unsplash.com/photo-1516744335356-6bcbaa34087a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block" width="500" height="600">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1606791405792-1004f1718d0c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block" width="500" height="600">
+            </div>
           </div>
         </div>
-        <div>
+      </aside>
+    </section>
+    
+    <section class="second-sec">
+      <div class="find-onedu">
+        <h3>취향에 맞는 원두를 찾아보세요</h3>
+        <div class="desc">
+          고객에게 딱 맞는 커피 혹은 새로운 취향을 찾는 건 어렵고도 즐거운 일입니다. 
+          취향에 맞는 원두를 찾도록 도와드립니다.
+        </div>
+        <button type="button" class="btn btn-outline-dark">원두 시작하기</button>
+      </div>
+      <div class="find-onedu-img">
+        <img src="https://images.unsplash.com/photo-1519927597191-ff2b32f81817?q=80&w=1795&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="700" height="400"/>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <div class="first-footer mb-5">
+        <div class="logo ps-0">Onedu</div>
+        <ul class="sns-area">
+          <li><i class="fa-brands fa-instagram icon"></i></li>
+          <li><i class="fa-brands fa-twitter icon"></i></li>
+          <li><i class="fa-brands fa-facebook icon"></i></li>
+        </ul>
+      </div>
+
+      <div class="row second-footer">
+        <div class="col">
+          <div class="title">주문 및 지원</div>
+          <a href="#">문의하기</a>
+          <a href="#">배송</a>
+          <a href="#">반품</a>
+          <a href="#">자주 묻는 질문</a>
+        </div>
+        <div class="col">
+          <div class="title">서비스</div>
+          <a href="#">기업체 구매</a>
+          <a href="#">정기 구매</a>
+          <a href="#">제휴 문의</a>
+        </div>
+        <div class="col">
+          <div class="title">소개</div>
+          <a href="#">이용약관</a>
+          <a href="#">개인정보처리방침</a>
+          <a href="#">서비스 이용약관</a>
+        </div>
+        <div class="col">
+          <div class="title">기업</div>
+          <ul class="company-info">
+            <li>회사명: Onedu</li>
+            <li>대표: 이지민</li>
+            <li>사업자등록번호: 231-11-000010</li>
+          </ul>
+          <div>주소: 부산광역시 부산진구 서전로99번길 999</div>
+          <ul class="company-info">
+            <li>전화: 051-000-0000</li>
+            <li>이메일: onedu@gmail.com</li>
+          </ul>
         </div>
       </div>
-
-      <div class="second-footer">
-      </div>
     </div>
-
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

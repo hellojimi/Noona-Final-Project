@@ -25,14 +25,13 @@ a {
   margin-left: 20px;
 }
 
-.main {
+.first-sec {
   display: flex;
   background-color: #dcdcdc;
 }
 .headLine {
-  width: 60%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 100px;
 }
 .logo {
@@ -40,11 +39,11 @@ a {
   font-weight: 400;
   font-style: normal;
   font-size: 2.5rem;
+  padding: 0px 30px;
 }
-.sub-headLine-top {
-  font-weight: 2rem;
+.sub-headLine {
+  padding: 0px 30px; 
 }
-
 .sub-headLine-bottom {
   margin-top: 15px;
   margin-bottom: 25vh;
@@ -53,6 +52,72 @@ a {
   width: 250px;
   height: 50px;
 }
-.carousel-item {
-  float: none;
+
+.second-sec {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 150px 0px;
+}
+.find-onedu {
+  margin-right: 50px;
+}
+.desc {
+  margin-top: 15px;
+  margin-bottom: 20vh;
+}
+.find-onedu-img {
+  width: 85%;
+}
+
+footer {
+  background-color: #252525;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+footer .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.first-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.sns-area {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.sns-area li {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #808080;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.icon {
+  font-size: 20px;
+}
+.title {
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+}
+.second-footer a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+.company-info {
+  list-style: none;
+  padding-left: 0px;
+}
+.company-info li {
+  margin: 10px 0px;
 }
