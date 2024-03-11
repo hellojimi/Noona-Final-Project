@@ -1,11 +1,7 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-
 body {
   background-color: #f5f5f5;
   font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
 }
 
 a {
@@ -42,15 +38,18 @@ a {
   padding: 0px 30px;
 }
 .sub-headLine {
-  padding: 0px 30px; 
+  padding: 0px 20px;
 }
 .sub-headLine-bottom {
   margin-top: 15px;
-  margin-bottom: 25vh;
+  margin-bottom: 20vh;
 }
 .btn {
   width: 250px;
   height: 50px;
+}
+aside {
+  width: 70vw;
 }
 
 .second-sec {
@@ -59,14 +58,16 @@ a {
   margin: 150px 0px;
 }
 .find-onedu {
-  margin-right: 50px;
+  padding: 0px 40px;
 }
 .desc {
   margin-top: 15px;
   margin-bottom: 20vh;
 }
-.find-onedu-img {
-  width: 85%;
+.find-onedu-img img{
+  width: 700px;
+  height: auto;
+  margin-right: 50px;
 }
 
 footer {
@@ -74,10 +75,7 @@ footer {
   color: white;
   display: flex;
   justify-content: center;
-}
-footer .container {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  width: 100%;
 }
 .first-footer {
   display: flex;
@@ -88,7 +86,7 @@ footer .container {
   align-items: center;
   margin-bottom: 0px;
 }
-.sns-area li {
+.sns-icon {
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -99,8 +97,6 @@ footer .container {
   justify-content: center;
   align-items: center;
   margin-right: 20px;
-}
-.icon {
   font-size: 20px;
 }
 .title {
@@ -120,4 +116,104 @@ footer .container {
 }
 .company-info li {
   margin: 10px 0px;
+}
+.company-contact {
+  list-style: none;
+  padding-left: 0px;
+}
+.company-contact li {
+  margin: 10px 0px;
+}
+
+/* media */
+@media (max-width: 992px) {
+  .headLine {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+    text-align: center;
+  }
+  .sub-headLine-bottom {
+    text-align: left;
+  }
+  .sub-headLine {
+    padding: 0px;
+  }
+  aside {
+    width: 600px;
+  }
+
+  .second-sec {
+    flex-direction: column-reverse;
+  }
+  .find-onedu {
+    text-align: center;
+    margin-right: 0px;
+    margin-top: 30px;
+    padding: 0 17%;
+  }
+
+  .first-footer {
+    display: block;
+    text-align: center;
+  }
+  .sns-area {
+    justify-content: center;
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+  .last {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .first-sec {
+    flex-direction: column-reverse;
+  }
+  .headLine {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+    text-align: left;
+  }
+  aside {
+    width: 100%;
+  }
+  
+  .find-onedu-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .company-contact {
+    display: none;
+  }
+}
+
+@media (max-width: 670px) {
+  .nav-container {
+    display: block;
+    text-align: center;
+  }
+  .nav-left {
+    margin-bottom: 10px;
+  }
+  
+  .headLine {
+    text-align: center;
+    margin: 30px 0px;
+    padding: 0 17%;
+  }
+  .headLine .logo {
+    display: none;
+  }
+  .sub-headLine-bottom {
+    text-align: center;
+  }
+
+  .find-onedu-img img {
+    width: 100%;
+    height: auto;
+  }
 }
